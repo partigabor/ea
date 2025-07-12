@@ -1,0 +1,49 @@
+/* here in this showcase we use our own modified chroma syntax highlightning style;
+   if you want to use a predefined style instead:
+   - remove `markup.highlight.noClasses` from your config.toml
+   - set `markup.highlight.style` to a predefined style name in your config.toml
+   - remove the following `@import` of the self-defined chroma stylesheet */
+
+:root {
+    --PRIMARY-color: #88ae43 ; /* brand primary color */
+    --SECONDARY-color: #88ae43 ; /* brand secondary color */
+    --ACCENT-color: #4388ae; /* brand accent color, used for search highlights */
+
+    --MAIN-TEXT-color: #444444; /* text color of content and h1 titles */
+    --MAIN-LINK-HOVER-color: #b7ce8e; /* hovered link color of content */
+    --MAIN-BG-color: #ffffff; /* background color of content */
+    --MAIN-TITLES-TEXT-color: #444444; /* text color of h2-h6 titles and transparent box titles */
+
+    /* adjusted to relearn-light chroma style */
+    --CODE-theme: relearn-light; /* name of the chroma stylesheet file */
+    --CODE-BLOCK-color: #000000; /* fallback text color of block code; should be adjusted to your selected chroma style */
+    --CODE-BLOCK-BG-color: #dddddd; /* fallback background color of block code; should be adjusted to your selected chroma style */
+    --CODE-BLOCK-BORDER-color: #dddddd; /* border color of block code */
+
+    --CODE-INLINE-color: #6943ae; /* text color of inline code */
+    --CODE-INLINE-BG-color: #eeeeee; /* background color of inline code */
+    --CODE-INLINE-BORDER-color: #eeeeee; /* border color of inline code */
+
+    --BROWSER-theme: light; /* name of the theme for browser scrollbars of the main section */
+    --MERMAID-theme: default; /* name of the default Mermaid theme for this variant, can be overridden in config.toml */
+    --OPENAPI-theme: light; /* name of the default OpenAPI theme for this variant, can be overridden in config.toml */
+    --OPENAPI-CODE-theme: idea; /* name of the default OpenAPI code theme for this variant, can be overridden in config.toml */
+
+    --MENU-HOME-LINK-color: #404040; /* home button color if configured */
+    --MENU-HOME-LINK-HOVER-color: #000000; /* hovered home button color if configured */
+
+    --MENU-SEARCH-color: #2b2b2b; /* text and icon color of search box */
+    --MENU-SEARCH-BG-color: #eeeeee; /* background color of search box */
+    --MENU-SEARCH-BORDER-color: #eeeeee; /* border color of search box */
+
+    --MENU-SECTIONS-BG-color: #2b2b2b; /* background of the menu; this is NOT just a color value but can be a complete CSS background definition including gradients, etc. */
+    --MENU-SECTIONS-ACTIVE-BG-color: #0000002a; /* ? background color of the active menu section */
+    --MENU-SECTIONS-LINK-color: #bababa; /* link color of menu topics */
+    --MENU-SECTIONS-LINK-HOVER-color: #ffffff; /* hovered link color of menu topics */
+    --MENU-SECTION-ACTIVE-CATEGORY-color: #444444; /* text color of the displayed menu topic */
+    --MENU-SECTION-SEPARATOR-color: #666666; /* separator color between menu sections and menu footer */
+
+    --BOX-CAPTION-color: #ffffff; /* text color of colored box titles */
+    --BOX-BG-color: #ffffffdd; /* background color of colored boxes */
+    --BOX-TEXT-color: #101010; /* text color of colored box content */
+}
