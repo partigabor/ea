@@ -162,7 +162,7 @@ weight = 50
   # Change default color scheme with a variant one. Eg. can be "auto", "red", "blue", "green" or an array like [ "blue", "green" ].
   themeVariant = [
     { identifier = "relearn-dark"   },
-    { identifier = "relearn-light"  },
+    # { identifier = "relearn-light"  },
     # { identifier = "neon"           },
   ]
   # Change the breadcrumb separator. Default to ">".
@@ -180,6 +180,9 @@ weight = 50
   disableExplicitIndexURLs = true
   # For external links you can define how they are opened in your browser; this setting will only be applied to the content area but not the shortcut menu
   externalLinkTarget = "_blank"
+  # Set up google analytics tracking ID
+  googleAnalytics = "G-GN7EQ53CMS" # https://support.google.com/analytics/answer/1008080?hl=en
+  # Set up Plausible analytics domain
 
   # Override default values for image effects, you can even add your own arbitrary effects to the list
   [params.imageEffects]
